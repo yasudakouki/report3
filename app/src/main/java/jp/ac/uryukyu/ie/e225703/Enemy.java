@@ -73,8 +73,8 @@ public class Enemy {
     public void setAttack(int _attack) { this.attack = _attack; }
 
     /**
-     * モンスターの生死を設定するsetter
-     * @param _dead モンスターの生死
+     * モンスターの生死状態を設定するsetter
+     * @param _dead モンスターの生死状態
      */
     public void setDead(boolean _dead) { this.dead = _dead; }
 
@@ -98,7 +98,7 @@ public class Enemy {
     public int getAttack() { return this.attack; }
 
     /**
-     * モンスターの生死を返すgetter
+     * モンスターの生死状態を返すgetter
      * @return
      */
     public boolean isDead() { return this.dead; }
