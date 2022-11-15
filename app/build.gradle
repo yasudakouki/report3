@@ -28,6 +28,7 @@ dependencies {
 
 application {
     // Define the main class for the application.
+    // mainClass = 'jp.ac.uryukyu.ie.e225703.App'
     mainClass = 'Main'
 }
 
