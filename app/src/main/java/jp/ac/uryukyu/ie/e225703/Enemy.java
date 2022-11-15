@@ -54,13 +54,52 @@ public class Enemy {
         }
     }
 
+    /**
+     * モンスターの名前を設定するsetter
+     * @param _name モンスターの名前
+     */
     public void setName(String _name) { this.name = _name; }
+
+    /**
+     * モンスターのHPを設定するsetter
+     * @param _hitpoint モンスターのHP
+     */
     public void setHitPoint(int _hitpoint) { this.hitPoint = _hitpoint; }
+
+    /**
+     * モンスターの攻撃力を設定するsetter
+     * @param _attack モンスターの攻撃力
+     */
     public void setAttack(int _attack) { this.attack = _attack; }
+
+    /**
+     * モンスターの生死を設定するsetter
+     * @param _dead モンスターの生死
+     */
     public void setDead(boolean _dead) { this.dead = _dead; }
 
+    
+    /**
+     * モンスターの名前を返すgetter
+     * @return
+     */
     public String getName() { return this.name; }
+
+    /**
+     * モンスターのHPを返すgetter
+     * @return
+     */
     public int getHitPoint() { return this.hitPoint; }
+
+    /**
+     * モンスターの攻撃力を返すgetter
+     * @return
+     */
     public int getAttack() { return this.attack; }
+
+    /**
+     * モンスターの生死を返すgetter
+     * @return
+     */
     public boolean isDead() { return this.dead; }
 }
